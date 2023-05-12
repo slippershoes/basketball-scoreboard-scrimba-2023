@@ -1,0 +1,112 @@
+body {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("images/wallpaper.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    src: url("fonts/CursedTimerULiL.ttf");
+    font-family: CursedTimer;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.score-counter {
+    width: 155px;
+    height: 120px;
+    background: black;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-family: CursedTimer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    line-height: 125px;
+    margin-bottom: 35px;
+}
+
+.score-buttons {
+    border: none;
+    background: #1B244A;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+
+.score {
+    margin-bottom: 75px; // only way i know how to center this number properly
+}
+.increment-btn {
+    font-size: 18px;
+    font-family: CursedTimer;
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    
+}
+
+#new-game-btn {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 15px 30px;
+
+}
+
+.miscellaneous {
+    display: flex;
+    width: 575px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info {
+    width: 50%;
+    padding: 10px;
+}
+
+footer {
+    font-size: 13px;
+    color: white;
+}

@@ -1,0 +1,49 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="background">
+            <div class="container">
+                <div class="flex-container">
+                    <div class="score-section">
+                        <h3>HOME</h3>
+                        <div id="home-score-counter" class="score-counter">
+                            <p id="home-score" class="score">0</p>
+                        </div>
+                        <div id="home-score-buttons" class="score-buttons">
+                            <button id="+1-home-btn" class="increment-btn" onclick="incrementHome(1)">+1</button>
+                            <button id="+2-home-btn" class="increment-btn" onclick="incrementHome(2)">+2</button>
+                            <button id="+3-home-btn" class="increment-btn" onclick="incrementHome(3)">+3</button>
+                        </div>
+                    </div>
+                    <div class="score-section">
+                        <h3>GUEST</h3>
+                        <div id="guest-score-counter" class="score-counter">
+                        <p id="guest-score" class="score">0</p>
+                        </div>
+                        <div id="guest-score-buttons" class="score-buttons">
+                            <button id="+1-guest-btn" class="increment-btn" onclick="incrementGuest(1)">+1</button>
+                            <button id="+2-guest-btn" class="increment-btn" onclick="incrementGuest(2)">+2</button>
+                            <button id="+3-guest-btn" class="increment-btn" onclick="incrementGuest(3)">+3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="miscellaneous">
+                <div class="controls">
+                    <button id="new-game-btn" onclick="newgame()">New Game</button>
+                </div>
+                <div class="info">
+                    <h2>Basketball Scoreboard | made by "shoesez"</h2>
+                    <p>This is my Basketball Scoreboard Solo Project in Scrimba. It took me around 2 hours and 30 minutes to build. I had done this project before and you can check it out <a href="">here.</a></p>
+                </div>
+            </div>
+        </div>
+        <footer><i>
+            Dedicated to Scrimba and freeCodeCamp for completely carrying my web development learning
+            </i></footer>
+        <script src="index.js"></script>
+        <!-- made by slippershoes#1094 | Christian Mendoza -->
+    </body>
+</html>
